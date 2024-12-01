@@ -20,7 +20,7 @@ Geometry Library provides an elegant and extensible way to perform geometric cal
 To install the library, use pip:
 
 ```bash
-pip install geometry-lib
+pip install geometry-lib-pca
 ```
 
 ## Usage
