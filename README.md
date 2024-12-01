@@ -55,7 +55,7 @@ To set up the development environment:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/geometry-lib.git
+git clone https://github.com/UNIFESO-Gabriel/geometry-lib-pca.git
 cd geometry-lib
 
 # Install development dependencies
