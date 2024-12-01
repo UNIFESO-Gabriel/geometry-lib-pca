@@ -65,7 +65,7 @@ poetry install
 To run tests:
 
 ```bash
-poetry run pytest
+poetry run pytest -v ./tests
 ```
 
 ## License
