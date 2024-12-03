@@ -17,17 +17,36 @@ Geometry Library provides an elegant and extensible way to perform geometric cal
 
 ## Installation
 
-To install the library, use pip:
+First of all, make sure you have already generated a token in PyPI using your account. Add the token as a environment variable by typing in console:
+
+```bash
+export PYPI_TOKEN=your-token-here
+```
+where you must replace the text `your-token-here` by your token.
+
+Next, it is necessary to grant permissions to `build.sh`  before executing it:
+
+```bash
+chmod +x build.sh
+```
+
+Now, run the script by typing the following command:
+
+```bash
+./build.sh
+```
+
+If everything goes right, you will be able to install the library in a client project using pip:
 
 ```bash
 pip install geometry-lib-pca
 ```
 
-## Usage
+## Example of Client Application
 
 ```python
-from geometry_lib import ShapeFactory, ShapeType
 from geometry_lib.shapes.base import Polygon
+from geometry_lib import ShapeFactory, ShapeType
 
 # Create a circle
 circle = ShapeFactory.create(ShapeType.CIRCLE, 5)
